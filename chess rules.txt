@@ -1,0 +1,50 @@
+Pawn 
+ecen me nga 1 gjithmone (vetem ne fillim mund te eci me 2)
+secen mbrapsht
+ha vetem nje siper majtas/djathas
+check vetem nje siper majtas/djathas
+promotes/underpromotes to queen rook bishop or knight
+nuk leviz siper figurave te tjera
+bllokon check nga bishop/rook/queen
+en passant
+
+knight
+leviz ne forme L-je (vektor 2,3 ose 3,2)
+sulmon ne forme L-je
+leviz siper figurave te tjera
+bllokon check nga bishop/rook/queen
+ne rast check nga knight, knight vetem mund te hahet ose mbreti te levizi
+
+bishop
+leviz ne forme diagonaleje
+sulmon ne forme diagonaleje
+nuk leviz siper figurave te tjera
+bllokon check nga bishop/rook/queen
+
+rook
+leviz ne menyre drejtvizore
+sulmon ne menyre drejtvizore
+nuk leviz siper figurave te tjera
+bllokon check nga bishop/rook/queen
+
+queen
+union rook + bishop
+bllokon check nga bishop/rook/queen
+
+king
+leviz vetem nje katror ne cdo drejtim
+checkmate kur nuk leviz dot under check
+can castle nqs ska levizur as mbreti as rook i caktuar por:
+	cant castle under check
+	cant castle if pieces across the way
+	cant castle if king must cross under a checked square
+
+others
+stalemate kur nuk leviz dot asnje pjese not under check
+draw by repetition
+cant move any other piece under check if it doesnt block the check
+50 moves rule
+
+
+
+
